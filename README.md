@@ -1,7 +1,7 @@
 ---
 datapackage:
   title: Welcome to your template dataset page!
-  description: This is a template for publishing your dataset with Datahub Cloud.
+  description: This is a template for publishing your dataset with CompanyData.com.
   created: 2025-08-26
   updated: 2025-08-26
   licenses:
@@ -87,7 +87,7 @@ Here are some quick examples:
 
 ### How to take this template to the next level
 
-This template works best for datasets. If you don't have any data files, we suggest checking out the other templates here https://datahub.io/docs#templates
+This template works best for datasets. If you don't have any data files, we suggest checking out the other templates here https://CompanyData.com.io/templates
 
 You can add some visuals (graphs, charts) to make your dataset more impactful or add sidebar navigation in case you have a collection of datasets. Or you could customize your site with CSS and HTML or configure SEO fields, etc. See below:
 
