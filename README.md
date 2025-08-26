@@ -1,4 +1,3 @@
-# public-datasets
 ---
 datapackage:
   title: Welcome to your template dataset page!
