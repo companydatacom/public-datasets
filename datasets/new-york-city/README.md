@@ -11,7 +11,7 @@ datapackage:
     - path: https://creativecommons.org/licenses/by/4.0/
       title: Creative Commons Attribution 4.0 International (CC BY 4.0)
   sources:
-    - path: https://github.com/companydatacom/public-datasets/new-york-city/new-york-city-business-dataset.xlsx
+    - path: https://github.com/companydatacom/public-datasets/new-york-city/new-york-city-business-dataset.csv.zip
       title: New York City Business Dataset
   resources:
     - name: new-york-city-business-dataset
@@ -20,7 +20,7 @@ datapackage:
         Excel dataset of 687,588 companies in New York City with addresses, 
         registration numbers, SIC codes, revenues, and employee data.
       lastModified: 2025-09-10
-      path: new-york-city-business-dataset.xlsx
+      path: new-york-city-business-dataset.csv.zip
 ---
 
 # Open Firmographic Dataset of 687,588 Companies with Addresses, Revenues, and SIC Codes in New York City

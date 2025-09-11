@@ -11,7 +11,7 @@ datapackage:
     - path: https://creativecommons.org/licenses/by/4.0/
       title: Creative Commons Attribution 4.0 International (CC BY 4.0)
   sources:
-    - path: https://github.com/companydatacom/public-datasets/paris/paris-business-dataset.xlsx
+    - path: https://github.com/companydatacom/public-datasets/paris/paris-business-dataset.csv.zip
       title: Paris Business Dataset
   resources:
     - name: paris-business-dataset
@@ -20,7 +20,7 @@ datapackage:
         Excel dataset of 984,407 companies in Paris with addresses, 
         registration numbers, SIC codes, revenues, and employee data.
       lastModified: 2025-09-10
-      path: paris-business-dataset.xlsx
+      path: paris-business-dataset.csv.zip
 ---
 
 # Open Firmographic Dataset of 984,407 Companies with Addresses, Revenues, and SIC Codes in Paris

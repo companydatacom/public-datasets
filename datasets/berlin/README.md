@@ -11,7 +11,7 @@ datapackage:
     - path: https://creativecommons.org/licenses/by/4.0/
       title: Creative Commons Attribution 4.0 International (CC BY 4.0)
   sources:
-    - path: https://github.com/companydatacom/public-datasets/berlin/berlin-business-dataset.xlsx
+    - path: https://github.com/companydatacom/public-datasets/berlin/berlin-business-dataset.csv.zip
       title: berlin Business Dataset
   resources:
     - name: berlin-business-dataset
@@ -20,7 +20,7 @@ datapackage:
         Excel dataset of 304,890 companies in Berlin with addresses, 
         registration numbers, SIC codes, revenues, and employee data.
       lastModified: 2025-09-10
-      path: berlin-business-dataset.xlsx
+      path: berlin-business-dataset.csv.zip
 ---
 
 # Open Firmographic Dataset of 304,890 Companies with Addresses, Revenues, and SIC Codes in berlin

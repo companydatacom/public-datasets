@@ -11,7 +11,7 @@ datapackage:
     - path: https://creativecommons.org/licenses/by/4.0/
       title: Creative Commons Attribution 4.0 International (CC BY 4.0)
   sources:
-    - path: https://github.com/companydatacom/public-datasets/madrid/madrid-business-dataset.xlsx
+    - path: https://github.com/companydatacom/public-datasets/madrid/madrid-business-dataset.csv.zip
       title: Madrid Business Dataset
   resources:
     - name: madrid-business-dataset
@@ -20,7 +20,7 @@ datapackage:
         Excel dataset of 730,882 companies in Madrid with addresses, 
         registration numbers, SIC codes, revenues, and employee data.
       lastModified: 2025-09-10
-      path: madrid-business-dataset.xlsx
+      path: madrid-business-dataset.csv.zip
 ---
 
 # Open Firmographic Dataset of 730,882 Companies with Addresses, Revenues, and SIC Codes in Madrid

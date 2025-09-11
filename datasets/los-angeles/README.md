@@ -11,7 +11,7 @@ datapackage:
     - path: https://creativecommons.org/licenses/by/4.0/
       title: Creative Commons Attribution 4.0 International (CC BY 4.0)
   sources:
-    - path: https://github.com/companydatacom/public-datasets/los-angeles/los-angeles-business-dataset.xlsx
+    - path: https://github.com/companydatacom/public-datasets/los-angeles/los-angeles-business-dataset.csv.zip
       title: Los Angeles Business Dataset
   resources:
     - name: los-angeles-business-dataset
@@ -20,7 +20,7 @@ datapackage:
         Excel dataset of 569,583 companies in Los Angeles with addresses, 
         registration numbers, SIC codes, revenues, and employee data.
       lastModified: 2025-09-10
-      path: los-angeles-business-dataset.xlsx
+      path: los-angeles-business-dataset.csv.zip
 ---
 
 # Open Firmographic Dataset of 569,583 Companies with Addresses, Revenues, and SIC Codes in Los Angeles

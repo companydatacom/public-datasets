@@ -11,7 +11,7 @@ datapackage:
     - path: https://creativecommons.org/licenses/by/4.0/
       title: Creative Commons Attribution 4.0 International (CC BY 4.0)
   sources:
-    - path: https://github.com/companydatacom/public-datasets/amsterdam/amsterdam-business-dataset.xlsx
+    - path: https://github.com/companydatacom/public-datasets/amsterdam/amsterdam-business-dataset.csv.zip
       title: Amsterdam Business Dataset
   resources:
     - name: amsterdam-business-dataset
@@ -20,7 +20,7 @@ datapackage:
         Excel dataset of 323,815 companies in Amsterdam with addresses, 
         registration numbers, SIC codes, revenues, and employee data.
       lastModified: 2025-09-10
-      path: amsterdam-business-dataset.xlsx
+      path: amsterdam-business-dataset.csv.zip
 ---
 
 # Open Firmographic Dataset of 323,815 Companies with Addresses, Revenues, and SIC Codes in Amsterdam

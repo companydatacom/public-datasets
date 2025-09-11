@@ -11,7 +11,7 @@ datapackage:
     - path: https://creativecommons.org/licenses/by/4.0/
       title: Creative Commons Attribution 4.0 International (CC BY 4.0)
   sources:
-    - path: https://github.com/companydatacom/public-datasets/london/london-business-dataset.xlsx
+    - path: https://github.com/companydatacom/public-datasets/london/london-business-dataset.csv.zip
       title: London Business Dataset
   resources:
     - name: london-business-dataset
@@ -20,7 +20,7 @@ datapackage:
         Excel dataset of 1,323,217 companies in London with addresses, 
         registration numbers, SIC codes, revenues, and employee data.
       lastModified: 2025-09-10
-      path: london-business-dataset.xlsx
+      path: london-business-dataset.csv.zip
 ---
 
 # Open Firmographic Dataset of 1,323,217 Companies with Addresses, Revenues, and SIC Codes in London

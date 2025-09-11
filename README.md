@@ -1,127 +1,125 @@
 ---
 datapackage:
-  title: Welcome to your template dataset page!
-  description: This is a template for publishing your dataset with CompanyData.com.
-  created: 2025-08-26
-  updated: 2025-08-26
+  title: {{CITY}} Business Dataset
+  description: >
+    Open firmographic dataset of {{RECORD_COUNT}} companies in {{CITY}}, including addresses, 
+    registration numbers, revenues, SIC industry codes, employee counts, and headquarter linkages. 
+    Published by {{SOURCE_NAME}} for free public usage and research.
+  created: {{CREATED_DATE}}
+  updated: {{UPDATED_DATE}}
   licenses:
-  - path: http://opendatacommons.org/licenses/pddl/
-    title: Open Data Commons Public Domain Dedication and License v1.0
+    - path: https://creativecommons.org/licenses/by/4.0/
+      title: Creative Commons Attribution 4.0 International (CC BY 4.0)
   sources:
-  - path: http://link.to/data/source
-    title: Link to data source
+    - path: {{SOURCE_URL}}
+      title: {{CITY}} Business Dataset
   resources:
-  - name: c02-per-decade
-    title: C02 PPM per decade
-    description: C02 PPM per decade
-    lastModified: 2025-08-26
-    path: dataset.csv
+    - name: {{CITY | lower}}-business-dataset
+      title: {{CITY}} Business Dataset
+      description: >
+        Dataset of {{RECORD_COUNT}} companies in {{CITY}} with addresses, 
+        registration numbers, SIC codes, revenues, and employee data.
+      lastModified: {{UPDATED_DATE}}
+      path: {{FILENAME}}
 ---
 
-<div class="hero">
-    <h1 class="hero-title">Readme.md content<br/></h1>
-    <p class="hero-description">Welcome to the body of your site. Everything above this section is part of the Data package front matter. I am adding here markdown text and other data-rich elements and they render beautifully.</p>
-</div>
+# Open Firmographic Dataset of {{RECORD_COUNT}} Companies with Addresses, Revenues, and SIC Codes in {{CITY}}
 
-
-## Overview
-
-Here is a quick overview of the template you're looking at:
-
-![[Overview.png]]
-
-We have a frontmatter at the top, followed by the "body" of your site, which consists of unstructured data and/or data-rich components.
-
-Feel free to customize the data package frontmatter accordingly when publishing your own data. 
-
-> [!info]
-> Frontmatter refers to the metadata placed at the beginning of the markdown file enclosed within triple dashes (---). This metadata provides essential information about the file and its content, enabling better organization, configuration, and processing by tools and platforms.
-
-```mermaid
-  graph TD;
-      Data-Package-Frontmatter-->Dataset-title
-      Data-Package-Frontmatter-->Data-package-metadata
-      Data-Package-Frontmatter-->Short-description;
-      Data-Package-Frontmatter-->Data-files-list;
-      Data-Package-Frontmatter-->Data-Previews;
-```
-
-This is the frontmatter in this README.md:
-
-```
----
-datapackage:
-  title: Welcome to your template dataset page!
-  description: This is a template for publishing your dataset with Companydata.com.
-  created: 2024-01-01
-  updated: 2024-01-31
-  licenses:
-  - path: http://opendatacommons.org/licenses/pddl/
-    title: Open Data Commons Public Domain Dedication and License v1.0
-  sources:
-  - path: http://link.to/data/source
-    title: Link to data source
-  resources:
-  - name: c02-per-decade
-    title: C02 PPM per decade
-    description: C02 PPM per decade
-    lastModified: 2024-01-15
-    path: data.csv
----
-```
-
-You can either update it if you have some data files / datasets that you would want to publish or delete it completely if you have markdown content only (suitable for blogs, data stories, articles, etc.)
-
-## Okay, I published the template. Now what?
-
-You can add as many markdown files to your GitHub repository as you like, and you can freely nest them in subdirectories. You can also enhance your content with other data visualisation components and markdown features.
-
-
-Here are some quick examples:
-
-> [!info] This is cool!
-> Here's a callout block.
-> It supports **markdown** and ```[[Internal link|wikilinks]]```.
-
-
-
-### How to take this template to the next level
-
-This template works best for datasets. If you don't have any data files, we suggest checking out the other templates here https://CompanyData.com.io/templates
-
-You can add some visuals (graphs, charts) to make your dataset more impactful or add sidebar navigation in case you have a collection of datasets. Or you could customize your site with CSS and HTML or configure SEO fields, etc. See below:
-
-<div class="middle-button-container">
-    <a href="https://companydata.com/knowledge-center/" class="middle-button">Add sidebar navigation</a>
-</div>
-
-<div class="middle-button-container">
-    <a href="https://companydata.com/knowledge-center/" class="middle-button">Add visuals and data-rich components</a>
-</div>
-
-
-<div class="middle-button-container">
-    <a href="https://companydata.com/knowledge-center/" class="middle-button">Customize your site with CSS and HTML</a>
-</div>
-
-<div class="middle-button-container">
-    <a href="https://companydata.com/knowledge-center/" class="middle-button">How to Configure Basic SEO Fields and Nav Bar</a>
-</div>
+An open dataset of {{RECORD_COUNT}} companies with detailed firmographic information, including addresses, registration numbers, SIC industry codes, revenues, employee counts, and headquarter linkages.  
+This dataset is designed for researchers, developers, data analysts, and businesses who want to explore company-level economic activity and build data-driven applications.
 
 ---
 
-> [!important]
-> For any questions, refer to the [Docs](https://companydata.com/knowledge-center/)
+## 📊 Dataset Contents
 
-> [!warning]
-> Just testing some callout blocks here.
+Each record contains multiple fields describing company details. Example fields include:
 
-> [!done]
-> Test passed.
+- Company name & trade name  
+- Address (street, postal code, city, country)  
+- Company registration number  
+- Business category codes & descriptions (SIC codes)  
+- Yearly revenue (local currency & USD)  
+- Employee counts (on site & total)  
+- Headquarter linkages (local, national, global)  
+- Founding year  
+- Import/Export codes  
 
+---
 
-If you want to explore more of what's possible:
+## 🔎 Practical Examples
 
-<div class="middle-button-container">
-    <a href="https://companydata.com/knowledge-center/" class="middle-button">Go to the docs</a>
-</div>
+Here are some example records from the dataset:
+
+1. **{{COMPANY_NAME_1}}**  
+   - Registration: {{REGISTRATION_1}}  
+   - Revenue (USD): {{REVENUE_1}}  
+   - Employees: {{EMPLOYEES_1}}  
+   - Industry: {{INDUSTRY_1}} (SIC {{SIC_1}})  
+
+2. **{{COMPANY_NAME_2}}**  
+   - Registration: {{REGISTRATION_2}}  
+   - Revenue (USD): {{REVENUE_2}}  
+   - Employees: {{EMPLOYEES_2}}  
+   - Industry: {{INDUSTRY_2}} (SIC {{SIC_2}})  
+
+3. **{{COMPANY_NAME_3}}**  
+   - Registration: {{REGISTRATION_3}}  
+   - Revenue (USD): {{REVENUE_3}}  
+   - Employees: {{EMPLOYEES_3}}  
+   - Industry: {{INDUSTRY_3}} (SIC {{SIC_3}})  
+
+4. **{{COMPANY_NAME_4}}**  
+   - Registration: {{REGISTRATION_4}}  
+   - Revenue (USD): {{REVENUE_4}}  
+   - Employees: {{EMPLOYEES_4}}  
+   - Industry: {{INDUSTRY_4}} (SIC {{SIC_4}})  
+
+---
+
+## 🌍 Use Cases
+- Economic research and market analysis  
+- Business intelligence dashboards  
+- Startup ecosystem mapping  
+- Open data applications and hackathons  
+
+---
+
+## 🎓 Suggested Research Exercises
+
+1. **Industry Distribution Analysis**  
+   Count companies per SIC code or Business Category.  
+   *Goal:* Identify the most common industries.  
+
+2. **Revenue Insights**  
+   Calculate total and average revenue per industry.  
+   *Goal:* Discover top-earning sectors.  
+
+3. **Company Size Profiling**  
+   Categorize companies by employee size.  
+   *Goal:* Understand the structure of the local economy.  
+
+4. **Headquarter Network Mapping**  
+   Link subsidiaries to their global HQ.  
+   *Goal:* Visualize multinational presence.  
+
+5. **Historical Trends**  
+   Analyze founding years per decade.  
+   *Goal:* Spot business creation patterns.  
+
+---
+
+## ❓ Questions & Contact
+For questions, collaborations, or feedback, please reach out:  
+📧 **{{CONTACT_EMAIL}}**
+
+---
+
+## 📥 Source & Licensing
+
+- **Source:** {{SOURCE_NAME}}  
+- **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+
+---
+
+## 🔑 SEO Keywords
+`open dataset companies`, `firmographic data`, `business registry`, `company revenue dataset`, `SIC code dataset`, `company addresses`, `public business data`, `open company database`, `{{CITY | lower}}`
