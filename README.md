@@ -1,26 +1,26 @@
 ---
 datapackage:
-  title: {{CITY}} Business Dataset
+  title: CITY Business Dataset
   description: >
-    Open firmographic dataset of {{RECORD_COUNT}} companies in {{CITY}}, including addresses, 
+    Open firmographic dataset of RECORD_COUNT companies in CITY, including addresses, 
     registration numbers, revenues, SIC industry codes, employee counts, and headquarter linkages. 
-    Published by {{SOURCE_NAME}} for free public usage and research.
-  created: {{CREATED_DATE}}
-  updated: {{UPDATED_DATE}}
+    Published by SOURCE_NAME for free public usage and research.
+  created: CREATED_DATE
+  updated: UPDATED_DATE
   licenses:
     - path: https://creativecommons.org/licenses/by/4.0/
       title: Creative Commons Attribution 4.0 International (CC BY 4.0)
   sources:
-    - path: {{SOURCE_URL}}
-      title: {{CITY}} Business Dataset
+    - path: SOURCE_URL
+      title: CITY Business Dataset
   resources:
-    - name: {{CITY | lower}}-business-dataset
-      title: {{CITY}} Business Dataset
+    - name: CITY | lower-business-dataset
+      title: CITY Business Dataset
       description: >
-        Dataset of {{RECORD_COUNT}} companies in {{CITY}} with addresses, 
+        Dataset of RECORD_COUNT companies in CITY with addresses, 
         registration numbers, SIC codes, revenues, and employee data.
-      lastModified: {{UPDATED_DATE}}
-      path: {{FILENAME}}
+      lastModified: UPDATED_DATE
+      path: FILENAME
 ---
 
 # Open Firmographic Dataset of {{RECORD_COUNT}} Companies with Addresses, Revenues, and SIC Codes in {{CITY}}
