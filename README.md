@@ -73,8 +73,8 @@ For questions, collaborations, or feedback, please reach out:
 ## 📥 Source & Licensing
 
 - **Source:** Collected and curated by Companydata.com (internal data aggregation).  
-- **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
-  - You are free to share and adapt the dataset as long as attribution is given.
+- **License:** [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)  
+  - You are free to share and adapt the dataset all without asking permission.
 
 ---
 
