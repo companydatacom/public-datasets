@@ -1,31 +1,6 @@
----
-datapackage:
-  title: CITY Business Dataset
-  description: >
-    Open firmographic dataset of RECORD_COUNT companies in CITY, including addresses, 
-    registration numbers, revenues, SIC industry codes, employee counts, and headquarter linkages. 
-    Published by SOURCE_NAME for free public usage and research.
-  created: CREATED_DATE
-  updated: UPDATED_DATE
-  licenses:
-    - path: https://creativecommons.org/licenses/by/4.0/
-      title: Creative Commons Attribution 4.0 International (CC BY 4.0)
-  sources:
-    - path: SOURCE_URL
-      title: CITY Business Dataset
-  resources:
-    - name: CITY | lower-business-dataset
-      title: CITY Business Dataset
-      description: >
-        Dataset of RECORD_COUNT companies in CITY with addresses, 
-        registration numbers, SIC codes, revenues, and employee data.
-      lastModified: UPDATED_DATE
-      path: FILENAME
----
+# Open Firmographic Dataset of Business Companies with Addresses, Revenues, and SIC Codes of Cities worldwide
 
-# Open Firmographic Dataset of {{RECORD_COUNT}} Companies with Addresses, Revenues, and SIC Codes in {{CITY}}
-
-An open dataset of {{RECORD_COUNT}} companies with detailed firmographic information, including addresses, registration numbers, SIC industry codes, revenues, employee counts, and headquarter linkages.  
+An open dataset of companies with detailed firmographic information, including addresses, registration numbers, SIC industry codes, revenues, employee counts, and headquarter linkages.  
 This dataset is designed for researchers, developers, data analysts, and businesses who want to explore company-level economic activity and build data-driven applications.
 
 ---
@@ -48,33 +23,14 @@ Each record contains multiple fields describing company details. Example fields 
 
 ## 🔎 Practical Examples
 
-Here are some example records from the dataset:
+Here is an example record from the Amsterdam business dataset:
 
-1. **{{COMPANY_NAME_1}}**  
-   - Registration: {{REGISTRATION_1}}  
-   - Revenue (USD): {{REVENUE_1}}  
-   - Employees: {{EMPLOYEES_1}}  
-   - Industry: {{INDUSTRY_1}} (SIC {{SIC_1}})  
+1. **Luxottica The Netherlands B.V.**  
+   - Registration: 33281895  
+   - Revenue (USD): $87M  
+   - Employees: 377  
+   - Industry: Professional Equipment and Supplies (SIC 5049)  
 
-2. **{{COMPANY_NAME_2}}**  
-   - Registration: {{REGISTRATION_2}}  
-   - Revenue (USD): {{REVENUE_2}}  
-   - Employees: {{EMPLOYEES_2}}  
-   - Industry: {{INDUSTRY_2}} (SIC {{SIC_2}})  
-
-3. **{{COMPANY_NAME_3}}**  
-   - Registration: {{REGISTRATION_3}}  
-   - Revenue (USD): {{REVENUE_3}}  
-   - Employees: {{EMPLOYEES_3}}  
-   - Industry: {{INDUSTRY_3}} (SIC {{SIC_3}})  
-
-4. **{{COMPANY_NAME_4}}**  
-   - Registration: {{REGISTRATION_4}}  
-   - Revenue (USD): {{REVENUE_4}}  
-   - Employees: {{EMPLOYEES_4}}  
-   - Industry: {{INDUSTRY_4}} (SIC {{SIC_4}})  
-
----
 
 ## 🌍 Use Cases
 - Economic research and market analysis  
@@ -110,16 +66,17 @@ Here are some example records from the dataset:
 
 ## ❓ Questions & Contact
 For questions, collaborations, or feedback, please reach out:  
-📧 **{{CONTACT_EMAIL}}**
+📧 **info@companydata.com**
 
 ---
 
 ## 📥 Source & Licensing
 
-- **Source:** {{SOURCE_NAME}}  
+- **Source:** Collected and curated by Companydata.com (internal data aggregation).  
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+  - You are free to share and adapt the dataset as long as attribution is given.
 
 ---
 
 ## 🔑 SEO Keywords
-`open dataset companies`, `firmographic data`, `business registry`, `company revenue dataset`, `SIC code dataset`, `company addresses`, `public business data`, `open company database`, `{{CITY | lower}}`
+`open dataset companies`, `firmographic data`, `business registry`, `company revenue dataset`, `SIC code dataset`, `company addresses`, `public business data`, `open company database`
