@@ -15,25 +15,29 @@ datapackage:
       title: Companydata.com
   resources:
     - name: sample-dataset
-      title: Sample Amsterdam Business Dataset
       description: >
         CSV dataset of 1,000 companies in Amsterdam with addresses, 
         registration numbers, SIC codes, revenues, and employee data.
       lastModified: 2025-09-10
       path: ./amsterdam-business-dataset-sample.csv
-    - name: complete-dataset
-      title: Amsterdam Business Full Dataset
-      description: >
-        CSV dataset of 323,815 companies in Amsterdam with addresses, 
-        registration numbers, SIC codes, revenues, and employee data.
-      lastModified: 2025-09-10
-      path: https://companydata.com/download-amsterdam
 ---
+
+
 
 # Open Firmographic Dataset of 323,815 Companies with Addresses, Revenues, and SIC Codes in Amsterdam
 
 An open dataset of 323,815 companies with detailed firmographic information, including addresses, registration numbers, SIC industry codes, revenues, employee counts, and headquarter linkages.  
 This dataset is designed for researchers, developers, data analysts, and businesses who want to explore company-level economic activity and build data-driven applications.
+
+---
+## Sample Amsterdam Business Dataset
+<FlatUiTable
+  data={{
+    url: 'https://datahub.io/@victorlabigar/Amsterdam-Business-Dataset/_r/-/amsterdam-business-dataset-sample.csv'
+  }}
+ />
+
+---
 
 
 ## 📊 Dataset Contents
@@ -49,13 +53,6 @@ Each record contains multiple fields describing company details. Example fields 
 - Headquarter linkages (local, national, global)  
 - Founding year  
 - Import/Export codes  
-
-
-<FlatUiTable
-  data={{
-    url: 'https://datahub.io/@victorlabigar/Amsterdam-Business-Dataset/_r/-/amsterdam-business-dataset-sample.csv'
-  }}
- />
 
 ---
 
