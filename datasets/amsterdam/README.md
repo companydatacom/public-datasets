@@ -5,8 +5,8 @@ datapackage:
     Open firmographic dataset of 323,815 companies in Amsterdam, including addresses, 
     registration numbers, revenues, SIC industry codes, employee counts, and headquarter linkages. 
     Published by CompanyData.com for free public usage and research.
-  created: 2025-09-10
-  updated: 2025-09-10
+  created: 2025-09-17
+  updated: 2025-09-17
   licenses:
     - path: https://creativecommons.org/publicdomain/zero/1.0/deed.en
       title: Creative Commons Zero v1.0 Universal
@@ -19,25 +19,17 @@ datapackage:
       description: >
         CSV dataset of 1,000 biggest companies in Amsterdam with addresses, 
         registration numbers, SIC codes, revenues, and employee data.
-      lastModified: 2025-09-10
+      lastModified: 2025-09-17
       format: csv
       path: https://datahub.io/@victorlabigar/Amsterdam-Business-Dataset/_r/-/amsterdam-business-dataset-sample.csv
 ---
 
-
+> [!tip] Looking for the full business dataset?
+> Download the complete Amsterdam Business Dataset with 323,815 Companies [here](https://companydata.com/download/).
 
 ## Open Firmographic Dataset of 323,815 Companies with Addresses, Revenues, and SIC Codes in Amsterdam
 
-An open dataset of 323,815 companies with detailed firmographic information, including addresses, registration numbers, SIC industry codes, revenues, employee counts, and headquarter linkages.  
-This dataset is designed for researchers, developers, data analysts, and businesses who want to explore company-level economic activity and build data-driven applications.
-
----
-## Sample Amsterdam Business Dataset
-<FlatUiTable
-  data={{
-    url: 'https://datahub.io/@victorlabigar/Amsterdam-Business-Dataset/_r/-/amsterdam-business-dataset-sample.csv'
-  }}
- />
+An open dataset of 323,815 companies with detailed firmographic information, including addresses, registration numbers, SIC industry codes, revenues, employee counts, and headquarter linkages. This dataset is designed for researchers, developers, data analysts, and businesses who want to explore company-level economic activity and build data-driven applications.
 
 ---
 
@@ -129,8 +121,8 @@ For questions, collaborations, or feedback, please reach out via email:
 ## 📥 Source & Licensing
 
 - **Source:** Collected and curated by Companydata.com (internal data aggregation).  
-- **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
-  - You are free to share and adapt the dataset as long as attribution is given.
+- **License:** [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)  
+  - You are free to share and adapt the dataset all without asking permission.
 
 ---
 
