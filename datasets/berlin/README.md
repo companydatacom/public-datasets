@@ -14,7 +14,7 @@ datapackage:
     - path: https://companydata.com/
       title: CompanyData.com
   resources:
-    - name: berlin-business-dataset
+    - name: sample-dataset
       title: Berlin Business Dataset
       description: >
         CSV dataset of 1,000 companies in Berlin with addresses, 
