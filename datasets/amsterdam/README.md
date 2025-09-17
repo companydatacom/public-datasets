@@ -11,7 +11,7 @@ datapackage:
     - path: https://creativecommons.org/licenses/by/4.0/
       title: Creative Commons Attribution 4.0 International (CC BY 4.0)
   sources:
-    - path: https://github.com/companydatacom/public-datasets/amsterdam/amsterdam-business-dataset.csv.zip
+    - path: https://github.com/companydatacom/public-datasets/datasets/amsterdam/amsterdam-business-dataset.csv.zip
       title: Amsterdam Business Dataset
   resources:
     - name: amsterdam-business-dataset
@@ -46,7 +46,7 @@ Each record contains multiple fields describing company details. Example fields 
 
 <FlatUiTable
   data={{
-    url: 'https://github.com/companydatacom/public-datasets/amsterdam/amsterdam-business-dataset-sample.csv'
+    url: 'https://github.com/companydatacom/public-datasets/datasets/amsterdam/amsterdam-business-dataset-sample.csv'
   }}
  />
 
