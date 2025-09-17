@@ -2,7 +2,7 @@
 datapackage:
   title: Top 1000 Business Dataset in Amsterdam Sample
   description: >
-    Open firmographic dataset of 323,815 companies in Amsterdam, including addresses, 
+    Open firmographic dataset of 1,000 companies in Amsterdam, including addresses, 
     registration numbers, revenues, SIC industry codes, employee counts, and headquarter linkages. 
     Published by CompanyData.com for free public usage and research.
   created: 2025-09-17
@@ -12,7 +12,7 @@ datapackage:
       title: Creative Commons Zero v1.0 Universal
   sources:
     - path: https://companydata.com/
-      title: Companydata.com
+      title: CompanyData.com
   resources:
     - name: sample-dataset
       title: Sample Amsterdam Business Dataset
@@ -24,12 +24,12 @@ datapackage:
       path: https://datahub.io/@victorlabigar/Amsterdam-Business-Dataset/_r/-/amsterdam-business-dataset-sample.csv
 ---
 
-> [!tip] Looking for the full business dataset?
-> Download the complete Amsterdam Business Dataset with 323,815 Companies [here](https://companydata.com/download/).
+> [!tip] Free Business Dataset: All Companies in Amsterdam
+> [Download the complete Amsterdam Business Dataset with 323,815 Companies here](https://companydata.com/wp-content/uploads/datasets/amsterdam-business-dataset.csv.zip)!
 
-## Open Firmographic Dataset of 323,815 Companies with Addresses, Revenues, and SIC Codes in Amsterdam
+## Open Firmographic Dataset of 1,000 Companies with Addresses, Revenues, and SIC Codes in Amsterdam
 
-An open dataset of 323,815 companies with detailed firmographic information, including addresses, registration numbers, SIC industry codes, revenues, employee counts, and headquarter linkages. This dataset is designed for researchers, developers, data analysts, and businesses who want to explore company-level economic activity and build data-driven applications.
+An open dataset of 1,000 companies with detailed firmographic information, including addresses, registration numbers, SIC industry codes, revenues, employee counts, and headquarter linkages. This dataset is designed for researchers, developers, data analysts, and businesses who want to explore company-level economic activity and build data-driven applications.
 
 ---
 
@@ -112,6 +112,15 @@ Here are some example exercises to practice with this dataset:
 
 ---
 
+## About CompanyData.com
+
+CompanyData.com provides trusted data to leading organizations like Uber, Booking, and Statista. We’re now opening up free datasets for the community, offering information on millions of companies worldwide, including email, phone, corporate ownership structures, employees and revenue.
+
+Our database covers more than 375 million companies across the globe.
+Learn more at [CompanyData.com](https://companydata.com)
+
+---
+
 ## ❓ Questions & Contact
 For questions, collaborations, or feedback, please reach out via email:  
 📧 **info@companydata.com**
@@ -126,7 +135,7 @@ For questions, collaborations, or feedback, please reach out via email:
 
 ---
 
-## 🔑 SEO Keywords
+## 🔑 Keywords
 `open dataset companies`, `firmographic data`, `business registry`, `company revenue dataset`, `SIC code dataset`, `company addresses`, `public business data`, `open company database`, `amsterdam`
 
 ---

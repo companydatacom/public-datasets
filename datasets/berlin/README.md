@@ -1,31 +1,35 @@
 ---
 datapackage:
-  title: Berlin Business Dataset
+  title: Top 1000 Business Dataset in Berlin Sample
   description: >
-    Open firmographic dataset of 304,890 companies in Berlin, including addresses, 
+    Open firmographic dataset of 1,000 companies in Berlin, including addresses, 
     registration numbers, revenues, SIC industry codes, employee counts, and headquarter linkages. 
     Published by CompanyData.com for free public usage and research.
-  created: 2025-09-10
-  updated: 2025-09-10
+  created: 2025-09-17
+  updated: 2025-09-17
   licenses:
-    - path: https://creativecommons.org/licenses/by/4.0/
-      title: Creative Commons Attribution 4.0 International (CC BY 4.0)
+    - path: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+      title: Creative Commons Zero v1.0 Universal
   sources:
-    - path: https://github.com/companydatacom/public-datasets/berlin/berlin-business-dataset.csv.zip
-      title: berlin Business Dataset
+    - path: https://companydata.com/
+      title: CompanyData.com
   resources:
     - name: berlin-business-dataset
       title: Berlin Business Dataset
       description: >
-        Excel dataset of 304,890 companies in Berlin with addresses, 
+        CSV dataset of 1,000 companies in Berlin with addresses, 
         registration numbers, SIC codes, revenues, and employee data.
-      lastModified: 2025-09-10
-      path: berlin-business-dataset.csv.zip
+      lastModified: 2025-09-17
+      format: csv
+      path: berlin-business-dataset-sample.csv
 ---
 
-# Open Firmographic Dataset of 304,890 Companies with Addresses, Revenues, and SIC Codes in berlin
+> [!tip] Free Business Dataset: All Companies in Berlin
+> [Download the complete Berlin Business Dataset with 304,890 Companies here](https://companydata.com/wp-content/uploads/datasets/berlin-business-dataset.csv.zip)!
 
-An open dataset of 304,890 companies with detailed firmographic information, including addresses, registration numbers, SIC industry codes, revenues, employee counts, and headquarter linkages.  
+## Open Firmographic Dataset of 1,000 Companies with Addresses, Revenues, and SIC Codes in berlin
+
+An open dataset of 1,000 companies with detailed firmographic information, including addresses, registration numbers, SIC industry codes, revenues, employee counts, and headquarter linkages.  
 This dataset is designed for researchers, developers, data analysts, and businesses who want to explore company-level economic activity and build data-driven applications.
 
 
@@ -110,6 +114,15 @@ Here are some example exercises to practice with this dataset:
 
 ---
 
+## About CompanyData.com
+
+CompanyData.com provides trusted data to leading organizations like Uber, Booking, and Statista. We’re now opening up free datasets for the community, offering information on millions of companies worldwide, including email, phone, corporate ownership structures, employees and revenue.
+
+Our database covers more than 375 million companies across the globe.
+Learn more at [CompanyData.com](https://companydata.com)
+
+---
+
 ## ❓ Questions & Contact
 For questions, collaborations, or feedback, please reach out via email:  
 📧 **info@companydata.com**
@@ -119,12 +132,12 @@ For questions, collaborations, or feedback, please reach out via email:
 ## 📥 Source & Licensing
 
 - **Source:** Collected and curated by Companydata.com (internal data aggregation).  
-- **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
-  - You are free to share and adapt the dataset as long as attribution is given.
+- **License:** [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.en)  
+  - You are free to share and adapt the dataset all without asking permission.
 
 ---
 
-## 🔑 SEO Keywords
+## 🔑 Keywords
 `open dataset companies`, `firmographic data`, `business registry`, `company revenue dataset`, `SIC code dataset`, `company addresses`, `public business data`, `open company database`, `berlin`
 
 ---

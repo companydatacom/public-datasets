@@ -1,4 +1,7 @@
-# Open Firmographic Dataset of Business Companies with Addresses, Revenues, and SIC Codes of Cities worldwide
+> [!tip] Free Business Datasets: All Companies in Amsterdam, Berlin, New York, Los Angeles, Rome, Paris, Madrid and London
+> [Download the complete Business Datasets at CompanyData.com](https://companydata.com/free-business-datasets/)!
+
+## Open Firmographic Dataset of Business Companies with Addresses, Revenues, and SIC Codes of Cities worldwide
 
 An open dataset of companies with detailed firmographic information, including addresses, registration numbers, SIC industry codes, revenues, employee counts, and headquarter linkages.  
 This dataset is designed for researchers, developers, data analysts, and businesses who want to explore company-level economic activity and build data-driven applications.
@@ -64,6 +67,15 @@ Here is an example record from the Amsterdam business dataset:
 
 ---
 
+## About CompanyData.com
+
+CompanyData.com provides trusted data to leading organizations like Uber, Booking, and Statista. We’re now opening up free datasets for the community, offering information on millions of companies worldwide, including email, phone, corporate ownership structures, employees and revenue.
+
+Our database covers more than 375 million companies across the globe.
+Learn more at [CompanyData.com](https://companydata.com)
+
+---
+
 ## ❓ Questions & Contact
 For questions, collaborations, or feedback, please reach out:  
 📧 **info@companydata.com**
@@ -78,5 +90,5 @@ For questions, collaborations, or feedback, please reach out:
 
 ---
 
-## 🔑 SEO Keywords
+## 🔑 Keywords
 `open dataset companies`, `firmographic data`, `business registry`, `company revenue dataset`, `SIC code dataset`, `company addresses`, `public business data`, `open company database`
