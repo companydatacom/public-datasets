@@ -1,6 +1,6 @@
 ---
 datapackage:
-  title: Amsterdam Business Dataset
+  title: Top 1000 Business Dataset in Amsterdam Sample
   description: >
     Open firmographic dataset of 323,815 companies in Amsterdam, including addresses, 
     registration numbers, revenues, SIC industry codes, employee counts, and headquarter linkages. 
@@ -11,7 +11,7 @@ datapackage:
     - path: https://creativecommons.org/licenses/by/4.0/
       title: Creative Commons Attribution 4.0 International (CC BY 4.0)
   sources:
-    - path: https://github.com/companydatacom/public-datasets/amsterdam/amsterdam-business-dataset.csv.zip
+    - path: https://github.com/companydatacom/public-datasets/amsterdam/amsterdam-business-dataset-sample.csv
       title: Amsterdam Business Dataset
   resources:
     - name: amsterdam-business-dataset
