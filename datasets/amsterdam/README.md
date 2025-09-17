@@ -46,7 +46,7 @@ Each record contains multiple fields describing company details. Example fields 
 
 <FlatUiTable
   data={{
-    url: 'https://github.com/companydatacom/public-datasets/datasets/amsterdam/amsterdam-business-dataset-sample.csv'
+    url: 'https://github.com/companydatacom/public-datasets/blob/main/datasets/amsterdam/amsterdam-business-dataset-sample.csv'
   }}
  />
 
