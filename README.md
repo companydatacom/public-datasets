@@ -72,7 +72,7 @@ Here is an example record from the Amsterdam business dataset:
 CompanyData.com provides trusted data to leading organizations like Uber, Booking, and Statista. We’re now opening up free datasets for the community, offering information on millions of companies worldwide, including email, phone, corporate ownership structures, employees and revenue.
 
 Our database covers more than 375 million companies across the globe.
-Learn more at [CompanyData.com](https://companydata.com)
+Learn more at [CompanyData.com](https://companydata.com/company-database/)
 
 ---
 

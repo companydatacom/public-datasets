@@ -21,11 +21,11 @@ datapackage:
         registration numbers, SIC codes, revenues, and employee data.
       lastModified: 2025-09-17
       format: csv
-      path: https://datahub.io/@victorlabigar/Amsterdam-Business-Dataset/_r/-/amsterdam-business-dataset-sample.csv
+      path: amsterdam-business-dataset-sample.csv
 ---
 
 > [!tip] Free Business Dataset: All Companies in Amsterdam
-> [Download the complete Amsterdam Business Dataset with 323,815 Companies here](https://companydata.com/wp-content/uploads/datasets/amsterdam-business-dataset.csv.zip)!
+> [Download the complete Amsterdam Business Dataset with 323,815 Companies here](https://companydata.com/free-business-datasets/)!
 
 ## Open Firmographic Dataset of 1,000 Companies with Addresses, Revenues, and SIC Codes in Amsterdam
 
@@ -117,7 +117,7 @@ Here are some example exercises to practice with this dataset:
 CompanyData.com provides trusted data to leading organizations like Uber, Booking, and Statista. We’re now opening up free datasets for the community, offering information on millions of companies worldwide, including email, phone, corporate ownership structures, employees and revenue.
 
 Our database covers more than 375 million companies across the globe.
-Learn more at [CompanyData.com](https://companydata.com)
+Learn more at [CompanyData.com](https://companydata.com/company-database/)
 
 ---
 

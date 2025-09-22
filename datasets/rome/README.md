@@ -25,7 +25,7 @@ datapackage:
 ---
 
 > [!tip] Free Business Dataset: All Companies in Rome
-> [Download the complete Rome Business Dataset with 357,222 Companies here](https://companydata.com/wp-content/uploads/datasets/rome-business-dataset.csv.zip)!
+> [Download the complete Rome Business Dataset with 357,222 Companies here](https://companydata.com/free-business-datasets/)!
 
 ## Open Firmographic Dataset of 1,000 Companies with Addresses, Revenues, and SIC Codes in Rome
 
@@ -118,7 +118,7 @@ Here are some example exercises to practice with this dataset:
 CompanyData.com provides trusted data to leading organizations like Uber, Booking, and Statista. We’re now opening up free datasets for the community, offering information on millions of companies worldwide, including email, phone, corporate ownership structures, employees and revenue.
 
 Our database covers more than 375 million companies across the globe.
-Learn more at [CompanyData.com](https://companydata.com)
+Learn more at [CompanyData.com](https://companydata.com/company-database/)
 
 ---
 
