@@ -113,6 +113,27 @@ Here are some example exercises to practice with this dataset:
 
 ---
 
+## 🔌 Get every company in Paris through the API
+
+This sample holds 1,000 companies. The [Company Data API](https://companydata.com/company-data-api/?utm_source=github&utm_medium=readme&utm_campaign=public-datasets&utm_content=paris) returns every registered company in Paris with the same fields, refreshed every month from the official business registers.
+
+```bash
+curl -G "https://app.companydata.com/api/company/search" \
+  -H "x-api-key: YOUR_API_KEY" \
+  --data-urlencode "countryCode=FR" \
+  --data-urlencode "cityName=PARIS" \
+  --data-urlencode "pageSize=25"
+```
+
+Search returns a preview of each record with contact details masked. `/api/company/export` returns the full record, including the contact details, for 1 credit per company.
+
+- Start with a 7-day free trial (500 searches and 10 exports). Plans from $34 a month: [get an API key](https://app.companydata.com/signup-api?utm_source=github&utm_medium=readme&utm_campaign=public-datasets&utm_content=paris).
+- [Quickstart](https://companydata.com/api-docs/quickstart/?utm_source=github&utm_medium=readme&utm_campaign=public-datasets&utm_content=paris): your first call in five minutes, with cURL, Python and JavaScript examples.
+- [Data dictionary](https://companydata.com/data-dictionary/?utm_source=github&utm_medium=readme&utm_campaign=public-datasets&utm_content=paris): every field and code explained.
+- [OpenAPI spec](https://companydata.com/openapi.json), [TypeScript SDK](https://github.com/companydatacom/companydata-sdk) and [MCP server](https://github.com/companydatacom/companydata-mcp-server) for Claude, Cursor and ChatGPT.
+
+---
+
 ## About CompanyData.com
 
 CompanyData.com provides trusted data to leading organizations like Uber, Booking, and Statista. We’re now opening up free datasets for the community, offering information on millions of companies worldwide, including email, phone, corporate ownership structures, employees and revenue.
